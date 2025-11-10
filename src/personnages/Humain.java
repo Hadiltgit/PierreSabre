@@ -6,6 +6,12 @@ public class Humain {
    private String boisson;
    private int argent;
    
+   public Humain(String nom,String boisson , int argent) {
+	   this.nom = nom;
+	   this.boisson = boisson;
+	   this.argent = argent ;
+   }
+   
    public String getNom() {
 	   return nom;
    }
